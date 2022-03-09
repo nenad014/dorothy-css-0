@@ -1147,3 +1147,393 @@ h6 {
     color: #000;
 }
 
+.btn-outline {
+    background-color: transparent;
+    color: inherit;
+    border-color: inherit;
+    opacity: 1;
+}
+.btn-outline-amber {
+    background-color: transparent;
+    border: 1px solid #f0a30a;
+    color: #f0a30a;
+}
+.btn-outline-amber:hover {
+    background-color: #f0a30a;
+    color: #fff;
+}
+.btn-outline-aqua {
+    background-color: transparent;
+    border: 1px solid #00ffff;
+    color: #00ffff;
+}
+.btn-outline-aqua:hover {
+    background-color: #00ffff;
+    color: #000;
+}
+.btn-outline-black {
+    background-color: transparent;
+    border: 1px solid #000;
+    color: #000;
+}
+.btn-outline-black:hover {
+    background-color: #000;
+    color: #fff;
+}
+.btn-outline-blue {
+    background-color: transparent;
+    border: 1px solid #3e65ff;
+    color: #3e65ff;
+}
+.btn-outline-blue:hover {
+    background-color: #3e65ff;
+    color: #fff;
+}
+.btn-outline-light-blue {
+    background-color: transparent;
+    border: 1px solid #5AC8FA;
+    color: #5AC8FA;
+}
+.btn-outline-light-blue:hover {
+    background-color: #5AC8FA;
+    color: #fff;
+}
+.btn-outline-dark-blue {
+    background-color: transparent;
+    border: 1px solid #2b5797;
+    color: #2b5797;
+}
+.btn-outline-dark-blue:hover {
+    background-color: #2b5797;
+    color: #fff;
+}
+.btn-outline-blue-gray {
+    background-color: transparent;
+    border: 1px solid #607d8b;
+    color: #607d8b;
+}
+.btn-outline-blue-gray:hover {
+    background-color: #607d8b;
+    color: #fff;
+}
+.btn-outline-brown {
+    background-color: transparent;
+    border: 1px solid #825a2c;
+    color: #825a2c;
+}
+.btn-outline-brown:hover {
+    background-color: #825a2c;
+    color: #fff;
+}
+.btn-outline-cyan {
+    background-color: transparent;
+    border: 1px solid #1ba1e2;
+    color: #1ba1e2;
+}
+.btn-outline-cyan:hover {
+    background-color: #1ba1e2;
+    color: #fff;
+}
+.btn-outline-gray {
+    background-color: transparent;
+    border: 1px solid #8e8e93;
+    color: #8e8e93;
+}
+.btn-outline-gray:hover {
+    background-color: #8e8e93;
+    color: #fff;
+}
+.btn-outline-light-gray {
+    background-color: transparent;
+    border: 1px solid #ceced2;
+    color: #ceced2;
+}
+.btn-outline-light-gray:hover {
+    background-color: #ceced2;
+    color: #000;
+}
+.btn-outline-dark-gray {
+    background-color: transparent;
+    border: 1px solid #616161;
+    color: #616161;
+}
+.btn-outline-dark-gray:hover {
+    background-color: #616161;
+    color: #fff;
+}
+.btn-outline-green {
+    background-color: transparent;
+    border: 1px solid #00a300;
+    color: #00a300;
+}
+.btn-outline-green:hover {
+    background-color: #00a300;
+    color: #fff;
+}
+.btn-outline-light-green {
+    background-color: transparent;
+    border: 1px solid #8bc34a;
+    color: #8bc34a;
+}
+.btn-outline-light-green:hover {
+    background-color: #8bc34a;
+    color: #000;
+}
+.btn-outline-dark-green {
+    background-color: transparent;
+    border: 1px solid #1e7145;
+    color: #1e7145;
+}
+.btn-outline-dark-green:hover {
+    background-color: #1e7145;
+    color: #fff;
+}
+.btn-outline-indigo {
+    background-color: transparent;
+    border: 1px solid #6a00ff;
+    color: #6a00ff;
+}
+.btn-outline-indigo:hover {
+    background-color: #6a00ff;
+    color: #fff;
+}
+.btn-outline-khaki {
+    background-color: transparent;
+    border: 1px solid #f0e68c;
+    color: #f0e68c;
+}
+.btn-outline-khaki:hover {
+    background-color: #f0e68c;
+    color: #000;
+}
+.btn-outline-lime {
+    background-color: transparent;
+    border: 1px solid #a4c400;
+    color: #a4c400;
+}
+.btn-outline-lime:hover {
+    background-color: #a4c400;
+    color: #fff;
+}
+.btn-outline-magenta {
+    background-color: transparent;
+    border: 1px solid #ff0097;
+    color: #ff0097;
+}
+.btn-outline-magenta:hover {
+    background-color: #ff0097;
+    color: #fff;
+}
+.btn-outline-olive {
+    background-color: transparent;
+    border: 1px solid #6d8764;
+    color: #6d8764;
+}
+.btn-outline-olive:hover {
+    background-color: #6d8764;
+    color: #fff;
+}
+.btn-outline-orange {
+    background-color: transparent;
+    border: 1px solid #e3a21a;
+    color: #e3a21a;
+}
+.btn-outline-orange:hover {
+    background-color: #e3a21a;
+    color: #fff;
+}
+.btn-outline-deep-orange {
+    background-color: transparent;
+    border: 1px solid #ff5722;
+    color: #ff5722;
+}
+.btn-outline-deep-orange:hover {
+    background-color: #ff5722;
+    color: #fff;
+}
+.btn-outline-pink {
+    background-color: transparent;
+    border: 1px solid #f472d0;
+    color: #f472d0;
+}
+.btn-outline-pink:hover {
+    background-color: #f472d0;
+    color: #fff;
+}
+.btn-outline-purple {
+    background-color: transparent;
+    border: 1px solid #7e3878;
+    color: #7e3878;
+}
+.btn-outline-purple:hover {
+    background-color: #7e3878;
+    color: #fff;
+}
+.btn-outline-light-purple {
+    background-color: transparent;
+    border: 1px solid #9f00a7;
+    color: #9f00a7;
+}
+.btn-outline-light-purple:hover {
+    background-color: #9f00a7;
+    color: #fff;
+}
+.btn-outline-deep-purple {
+    background-color: transparent;
+    border: 1px solid #673ab7;
+    color: #673ab7;
+}
+.btn-outline-deep-purple:hover {
+    background-color: #673ab7;
+    color: #fff;
+}
+.btn-outline-red {
+    background-color: transparent;
+    border: 1px solid #ee1111;
+    color: #ee1111;
+}
+.btn-outline-red:hover {
+    background-color: #ee1111;
+    color: #fff;
+}
+.btn-outline-dark-red {
+    background-color: transparent;
+    border: 1px solid #a20025;
+    color: #a20025;
+}
+.btn-outline-dark-red:hover {
+    background-color: #a20025;
+    color: #fff;
+}
+.btn-outline-sand {
+    background-color: transparent;
+    border: 1px solid #fdf5e6;
+    color: #fdf5e6;
+}
+.btn-outline-sand:hover {
+    background-color: #fdf5e6;
+    color: #000;
+}
+.btn-outline-teal {
+    background-color: transparent;
+    border: 1px solid #009688;
+    color: #009688;
+}
+.btn-outline-teal:hover {
+    background-color: #009688;
+    color: #fff;
+}
+.btn-outline-violet {
+    background-color: transparent;
+    border: 1px solid #aa00ff;
+    color: #aa00ff;
+}
+.btn-outline-violet:hover {
+    background-color: #aa00ff;
+    color: #fff;
+}
+.btn-outline-white {
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+.btn-outline-white:hover {
+    background-color: #fff;
+    color: #000;
+}
+.btn-outline-yellow {
+    background-color: transparent;
+    border: 1px solid #ffc40d;
+    color: #ffc40d;
+}
+.btn-outline-yellow:hover {
+    background-color: #ffc40d;
+    color: #fff;
+}
+.btn-outline-dark {
+    background-color: transparent;
+    border: 1px solid #1d1d1d;
+    color: #1d1d1d;
+}
+.btn-outline-dark:hover {
+    background-color: #1d1d1d;
+    color: #fff;
+}
+.btn-outline-light {
+    background-color: transparent;
+    border: 1px solid #efeff4;
+    color: #efeff4;
+}
+.btn-outline-light:hover {
+    background-color: #efeff4;
+    color: #000;
+}
+
+.btn-facebook {
+    background-color: #3b5998;
+    color: #fff;
+}
+.btn-twitter {
+    background-color: #00aced;
+    color: #fff;
+}
+.btn-tumblr {
+    background-color: #2c4762;
+    color: #fff;
+}
+.btn-pinterest {
+    background-color: #cb2027;
+    color: #fff;
+}
+.btn-behance {
+    background-color: #1769ff;
+    color: #fff;
+}
+.btn-github {
+    background-color: #4183c4;
+    color: #fff;
+}
+.btn-linkedin {
+    background-color: #3399CC;
+    color: #fff;
+}
+.btn-dribbble {
+    background-color: #EA4C89;
+    color: #fff;
+}
+.btn-instagram {
+    background-color: #bc2a8d;
+    color: #fff;
+}
+.btn-flickr {
+    background-color: #FF0084;
+    color: #fff;
+}
+.btn-blogger {
+    background-color: #F26300;
+    color: #fff;
+}
+.btn-vimeo {
+    background-color: #445566;
+    color: #fff;
+}
+.btn-google-plus {
+    background-color: #dd4b39;
+    color: #fff;
+}
+.btn-youtube {
+    background-color: #cd201f;
+    color: #fff;
+}
+
+.btn-circle {
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+}
+.btn-pill {
+    border-radius: 50rem;
+}
+.btn-fullwidth {
+    width: 100%;
+}
