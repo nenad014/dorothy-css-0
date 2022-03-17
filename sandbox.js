@@ -51,14 +51,13 @@ window.onclick = (e) => {
     });
 }
 
-/* openModalButton.onclick = function() {
-    modal.style.display = 'block';
+// Navbar
+const hamburger = document.querySelector('.nav-hamburger');
+const navMenu = document.querySelector('.nav-menu');
+
+hamburger.addEventListener('click', mobileMenu);
+
+function mobileMenu() {
+    hamburger.classList.toggle('active');
+    navMenu.classList.toggle('active');
 }
-closeModal.onclick = function() {
-    modal.style.display = 'none';
-}
-window.onclick = function(event) {
-    if(event.target == modal) {
-        modal.style.display = 'none';
-    }
-} */
