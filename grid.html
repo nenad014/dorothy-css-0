@@ -1,0 +1,105 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dorothy CSS</title>
+    <link rel="stylesheet" href="dorothy.css">
+</head>
+<body>
+    <nav class="navbar bg-teal">
+        <a href="index.html" class="nav-logo">Dorothy CSS</a>
+        <ul class="nav-menu">
+            <li class="nav-item">
+                <a href="documentation.html" class="nav-link">Documentation</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Nav item 2</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Nav item 3</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Nav item 4</a>
+            </li>
+        </ul>
+        <div class="nav-hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+    <div class="row">
+        <div class="col-m-2"></div>
+        <div class="col-m-10">
+            <div class="container">
+                <div class="btn-group">
+                    <a href="colors.html" class="btn btn-outline-red">&larr; Colors</a>
+                    <a href="helpers.html" class="btn btn-outline-green">Helpers &rarr;</a>
+                </div>
+                <h1>Grid</h1>
+                <hr>
+                <p class="txt-justify">We are using a standard 12 column fluid responsive grid system. The grid helps you layout your page in an ordered, easy fashion.</p>
+                <br>
+                <h2>Container</h2>
+                <p class="txt-justify"><b>.container</b> class is one of the most important classes in Dorothy.CSS. It allows you to center your page content. <b>.container</b> class has a default 32px left and right padding, and no top or bottom padding.</p>
+                <p class="txt-justify"><b>.container</b> class is the perfect to use for all HTML container elements such as div, article, section, header, footer, ...</p>
+                <p class="txt-justify">To add a container just put your content inside a div tag with a container class. Here's an example of how your page might be set up.</p>
+                <br>
+                <h2>Panel</h2>
+                <p class="txt-justify"><b>.panel</b> class is similar to the <b>.container</b> class.</p>
+                <p class="txt-justify"><b>.panel</b> class adds a 16px top and botom margin and a 32px left and right padding to any HTML element.</p>
+                <div class="panel bg-red"><p>I am a panel</p></div>
+                <div class="panel bg-green"><p>I am a panel</p></div>
+                <div class="container bg-red">I am a container</div>
+                <div class="container bg-green">I am a container</div>
+                <br>
+                <p class="txt-justify">To add a panel just put your content inside a div tag with a panel class. Here's an example of how your page might be set up.</p>
+                <br>
+                <h2>Columns</h2>
+                <p class="txt-justify">Our standard grid has 12 columns. No matter the size of the browser, each of these columns will always have an equal width.</p>
+                <div class="row txt-center">
+                    <div class="col-s-1 bg-deep-orange">1</div>
+                    <div class="col-s-1 bg-deep-orange">2</div>
+                    <div class="col-s-1 bg-deep-orange">3</div>
+                    <div class="col-s-1 bg-deep-orange">4</div>
+                    <div class="col-s-1 bg-deep-orange">5</div>
+                    <div class="col-s-1 bg-deep-orange">6</div>
+                    <div class="col-s-1 bg-deep-orange">7</div>
+                    <div class="col-s-1 bg-deep-orange">8</div>
+                    <div class="col-s-1 bg-deep-orange">9</div>
+                    <div class="col-s-1 bg-deep-orange">10</div>
+                    <div class="col-s-1 bg-deep-orange">11</div>
+                    <div class="col-s-1 bg-deep-orange">12</div>
+                </div>
+                <br>
+                <p class="txt-justify">Remember when you are creating your layout that all columns must be contained inside a row and that you must add the col class to your inner divs to make them into columns</p>
+                <div class="row txt-center">
+                    <div class="col-s-12 bg-orange">This div is 12-columns wide on all screen sizes</div>
+                    <div class="col-s-6 bg-magenta">6-columns (one-half)</div>
+                    <div class="col-s-6 bg-magenta">6-columns (one-half)</div>
+                </div>
+                <br>
+                <p class="txt-justify">To offset, simply add offset-s-2 to the class where s signifies the screen class-prefix (s = small, m = medium, l = large, xl = extra large) and the number after is the number of columns you want to offset by.</p>
+                <div class="row txt-center">
+                    <div class="col-s-12 bg-light-green">This div is 12-columns wide on all screen sizes</div>
+                    <div class="col-s-6 offset-s-6 bg-dark-green">6-columns (offset-by-6)</div>
+                </div>
+                <br>
+                <h3>Responsive example</h3>
+                <div class="row txt-center">
+                    <div class="col-s-12 bg-blue">s-12</div>
+                    <div class="col-s-12 col-m-4 col-l-2 bg-teal">s-12 m-4 l-2</div>
+                    <div class="col-s-12 col-m-4 col-l-8 bg-teal">s-12 m-4 l-8</div>
+                    <div class="col-s-12 col-m-4 col-l-2 bg-teal">s-12 m-4 l-2</div>
+                    <div class="col-s-12 col-m-6 col-l-3 bg-pink">s-12 m-6 l-3</div>
+                    <div class="col-s-12 col-m-6 col-l-3 bg-pink">s-12 m-6 l-3</div>
+                    <div class="col-s-12 col-m-6 col-l-3 bg-pink">s-12 m-6 l-3</div>
+                    <div class="col-s-12 col-m-6 col-l-3 bg-pink">s-12 m-6 l-3</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="dorothy.js"></script>
+</body>
+</html>

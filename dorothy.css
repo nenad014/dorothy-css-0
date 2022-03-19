@@ -82,6 +82,27 @@ h6 {
     font-size: 1rem;
 }
 
+/* Text-align */
+.txt-left {
+    text-align: left;
+}
+.txt-right {
+    text-align: right;
+}
+.txt-center {
+    text-align: center;
+}
+.txt-justify {
+    text-align: justify;
+}
+/* Floating */
+.left {
+    float: left!important;
+}
+.right {
+    float: right!important;
+}
+
 
 /* COLORS */
 /* Background color */

@@ -1,0 +1,429 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dorothy CSS</title>
+    <link rel="stylesheet" href="dorothy.css">
+</head>
+<body>
+    <nav class="navbar bg-teal">
+        <a href="index.html" class="nav-logo">Dorothy CSS</a>
+        <ul class="nav-menu">
+            <li class="nav-item">
+                <a href="documentation.html" class="nav-link">Documentation</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Nav item 2</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Nav item 3</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Nav item 4</a>
+            </li>
+        </ul>
+        <div class="nav-hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+    <div class="row">
+        <div class="col-m-2"></div>
+        <div class="col-m-10">
+            <div class="container">
+                <div class="btn-group">
+                    <a href="css.html" class="btn btn-outline-red">&larr; CSS</a>
+                    <a href="grid.html" class="btn btn-outline-green">Grid &rarr;</a>
+                </div>
+                <br>
+                <h1>Colors</h1>
+                <hr>
+                <h2>Usage</h2>
+                <p class="txt-justify">Dorothy.CSS contains a palette of 35 colors. You can use this palette for background color and text color.</p>
+                <h3>Background Colors</h3>
+                <p><b>.bg-<i>color</i></b> classes set the background color of any HTML element.</p>
+                <p>You can use any of the <b>35 colors</b>:</p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Class</th>
+                            <th>Background color</th>
+                            <th>Example</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>.bg-amber</td>
+                            <td>#f0a30a</td>
+                            <td class="bg-amber">Hello World!</td>
+                        </tr>
+                        <tr>
+                            <td>.bg-aqua</td>
+                            <td>#00ffff</td>
+                            <td class="bg-aqua">Hello World!</td>
+                        </tr>
+                        <tr>
+                            <td>.bg-black</td>
+                            <td>#000000</td>
+                            <td class="bg-black">Hello World!</td>
+                        </tr>
+                        <tr>
+                            <td>.bg-blue</td>
+                            <td>#3e65ff</td>
+                            <td class="bg-blue">Hello World!</td>
+                        </tr>
+                        <tr>
+                            <td>.bg-light-blue</td>
+                            <td>#5AC8FA</td>
+                            <td class="bg-light-blue">Hello World!</td>
+                        </tr>
+                        <tr>
+                            <td>.bg-dark-blue</td>
+                            <td>#2b5797</td>
+                            <td class="bg-dark-blue">Hello World!</td>
+                        </tr>
+                        <tr>
+                            <td>.bg-blue-gray</td>
+                            <td>#607d8b</td>
+                            <td class="bg-blue-gray">Hello World!</td>
+                        </tr>
+                        <tr>
+                            <td>.bg-brown</td>
+                            <td>#825a2c</td>
+                            <td class="bg-brown">Hello World!</td>
+                        </tr>
+                        <tr>
+                            <td>.bg-cyan</td>
+                            <td>#1ba1e2</td>
+                            <td class="bg-cyan">Hello World!</td>
+                        </tr>
+                        <tr>
+                            <td>.bg-gray</td>
+                            <td>#8e8e93</td>
+                            <td class="bg-gray">Hello World!</td>
+                        </tr>
+                        <tr>
+                            <td>.bg-light-gray</td>
+                            <td>#ceced2</td>
+                            <td class="bg-light-gray">Hello World!</td>
+                        </tr>
+                        <tr>
+                            <td>.bg-dark-gray</td>
+                            <td>#616161</td>
+                            <td class="bg-dark-gray">Hello World!</td>
+                        </tr>
+                        <tr>
+                            <td>.bg-green</td>
+                            <td>#00a300</td>
+                            <td class="bg-green">Hello World!</td>
+                        </tr>
+                        <tr>
+                            <td>.bg-light-green</td>
+                            <td>#8bc34a</td>
+                            <td class="bg-light-green">Hello World!</td>
+                        </tr>
+                        <tr>
+                            <td>.bg-dark-green</td>
+                            <td>#1e7145</td>
+                            <td class="bg-dark-green">Hello World!</td>
+                        </tr>
+                        <tr>
+                            <td>.bg-indigo</td>
+                            <td>#6a00ff</td>
+                            <td class="bg-indigo">Hello World!</td>
+                        </tr>
+                        <tr>
+                            <td>.bg-khaki</td>
+                            <td>#f0e68c</td>
+                            <td class="bg-khaki">Hello World!</td>
+                        </tr>
+                        <tr>
+                            <td>.bg-lime</td>
+                            <td>#a4c400</td>
+                            <td class="bg-lime">Hello World!</td>
+                        </tr>
+                        <tr>
+                            <td>.bg-magenta</td>
+                            <td>#ff0097</td>
+                            <td class="bg-magenta">Hello World!</td>
+                        </tr>
+                        <tr>
+                            <td>.bg-olive</td>
+                            <td>#6d8764</td>
+                            <td class="bg-olive">Hello World!</td>
+                        </tr>
+                        <tr>
+                            <td>.bg-orange</td>
+                            <td>#e3a21a</td>
+                            <td class="bg-orange">Hello World!</td>
+                        </tr>
+                        <tr>
+                            <td>.bg-deep-orange</td>
+                            <td>#ff5722</td>
+                            <td class="bg-deep-orange">Hello World!</td>
+                        </tr>
+                        <tr>
+                            <td>.bg-pink</td>
+                            <td>#f472d0</td>
+                            <td class="bg-pink">Hello World!</td>
+                        </tr>
+                        <tr>
+                            <td>.bg-purple</td>
+                            <td>#7e3878</td>
+                            <td class="bg-purple">Hello World!</td>
+                        </tr>
+                        <tr>
+                            <td>.bg-light-purple</td>
+                            <td>#9f00a7</td>
+                            <td class="bg-light-purple">Hello World!</td>
+                        </tr>
+                        <tr>
+                            <td>.bg-deep-purple</td>
+                            <td>#673ab7</td>
+                            <td class="bg-deep-purple">Hello World!</td>
+                        </tr>
+                        <tr>
+                            <td>.bg-red</td>
+                            <td>#ee1111</td>
+                            <td class="bg-red">Hello World!</td>
+                        </tr>
+                        <tr>
+                            <td>.bg-dark-red</td>
+                            <td>#a20025</td>
+                            <td class="bg-dark-red">Hello World!</td>
+                        </tr>
+                        <tr>
+                            <td>.bg-sand</td>
+                            <td>#fdf5e6</td>
+                            <td class="bg-sand">Hello World!</td>
+                        </tr>
+                        <tr>
+                            <td>.bg-teal</td>
+                            <td>#009688</td>
+                            <td class="bg-teal">Hello World!</td>
+                        </tr>
+                        <tr>
+                            <td>.bg-violet</td>
+                            <td>#aa00ff</td>
+                            <td class="bg-violet">Hello World!</td>
+                        </tr>
+                        <tr>
+                            <td>.bg-white</td>
+                            <td>#ffffff</td>
+                            <td class="bg-white">Hello World!</td>
+                        </tr>
+                        <tr>
+                            <td>.bg-yellow</td>
+                            <td>#ffc40d</td>
+                            <td class="bg-yellow">Hello World!</td>
+                        </tr>
+                        <tr>
+                            <td>.bg-dark</td>
+                            <td>#1d1d1d</td>
+                            <td class="bg-dark">Hello World!</td>
+                        </tr>
+                        <tr>
+                            <td>.bg-light</td>
+                            <td>#efeff4</td>
+                            <td class="bg-light">Hello World!</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br>
+                <h3>Text Colors</h3>
+                <p><b>.txt-<i>color</i></b> classes set the text color of any HTML element.</p>
+                <p>You can use any of the <b>35 colors</b>:</p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Class</th>
+                            <th>Text color</th>
+                            <th>Example</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>.txt-amber</td>
+                            <td>#f0a30a</td>
+                            <td class="txt-amber">Hello World!</td>
+                        </tr>
+                        <tr>
+                            <td>.txt-aqua</td>
+                            <td>#00ffff</td>
+                            <td class="txt-aqua">Hello World!</td>
+                        </tr>
+                        <tr>
+                            <td>.txt-black</td>
+                            <td>#000000</td>
+                            <td class="txt-black">Hello World!</td>
+                        </tr>
+                        <tr>
+                            <td>.txt-blue</td>
+                            <td>#3e65ff</td>
+                            <td class="txt-blue">Hello World!</td>
+                        </tr>
+                        <tr>
+                            <td>.txt-light-blue</td>
+                            <td>#5AC8FA</td>
+                            <td class="txt-light-blue">Hello World!</td>
+                        </tr>
+                        <tr>
+                            <td>.txt-dark-blue</td>
+                            <td>#2b5797</td>
+                            <td class="txt-dark-blue">Hello World!</td>
+                        </tr>
+                        <tr>
+                            <td>.txt-blue-gray</td>
+                            <td>#607d8b</td>
+                            <td class="txt-blue-gray">Hello World!</td>
+                        </tr>
+                        <tr>
+                            <td>.txt-brown</td>
+                            <td>#825a2c</td>
+                            <td class="txt-brown">Hello World!</td>
+                        </tr>
+                        <tr>
+                            <td>.txt-cyan</td>
+                            <td>#1ba1e2</td>
+                            <td class="txt-cyan">Hello World!</td>
+                        </tr>
+                        <tr>
+                            <td>.txt-gray</td>
+                            <td>#8e8e93</td>
+                            <td class="txt-gray">Hello World!</td>
+                        </tr>
+                        <tr>
+                            <td>.txt-light-gray</td>
+                            <td>#ceced2</td>
+                            <td class="txt-light-gray">Hello World!</td>
+                        </tr>
+                        <tr>
+                            <td>.txt-dark-gray</td>
+                            <td>#616161</td>
+                            <td class="txt-dark-gray">Hello World!</td>
+                        </tr>
+                        <tr>
+                            <td>.txt-green</td>
+                            <td>#00a300</td>
+                            <td class="txt-green">Hello World!</td>
+                        </tr>
+                        <tr>
+                            <td>.txt-light-green</td>
+                            <td>#8bc34a</td>
+                            <td class="txt-light-green">Hello World!</td>
+                        </tr>
+                        <tr>
+                            <td>.txt-dark-green</td>
+                            <td>#1e7145</td>
+                            <td class="txt-dark-green">Hello World!</td>
+                        </tr>
+                        <tr>
+                            <td>.txt-indigo</td>
+                            <td>#6a00ff</td>
+                            <td class="txt-indigo">Hello World!</td>
+                        </tr>
+                        <tr>
+                            <td>.txt-khaki</td>
+                            <td>#f0e68c</td>
+                            <td class="txt-khaki">Hello World!</td>
+                        </tr>
+                        <tr>
+                            <td>.txt-lime</td>
+                            <td>#a4c400</td>
+                            <td class="txt-lime">Hello World!</td>
+                        </tr>
+                        <tr>
+                            <td>.txt-magenta</td>
+                            <td>#ff0097</td>
+                            <td class="txt-magenta">Hello World!</td>
+                        </tr>
+                        <tr>
+                            <td>.txt-olive</td>
+                            <td>#6d8764</td>
+                            <td class="txt-olive">Hello World!</td>
+                        </tr>
+                        <tr>
+                            <td>.txt-orange</td>
+                            <td>#e3a21a</td>
+                            <td class="txt-orange">Hello World!</td>
+                        </tr>
+                        <tr>
+                            <td>.txt-deep-orange</td>
+                            <td>#ff5722</td>
+                            <td class="txt-deep-orange">Hello World!</td>
+                        </tr>
+                        <tr>
+                            <td>.txt-pink</td>
+                            <td>#f472d0</td>
+                            <td class="txt-pink">Hello World!</td>
+                        </tr>
+                        <tr>
+                            <td>.txt-purple</td>
+                            <td>#7e3878</td>
+                            <td class="txt-purple">Hello World!</td>
+                        </tr>
+                        <tr>
+                            <td>.txt-light-purple</td>
+                            <td>#9f00a7</td>
+                            <td class="txt-light-purple">Hello World!</td>
+                        </tr>
+                        <tr>
+                            <td>.txt-deep-purple</td>
+                            <td>#673ab7</td>
+                            <td class="txt-deep-purple">Hello World!</td>
+                        </tr>
+                        <tr>
+                            <td>.txt-red</td>
+                            <td>#ee1111</td>
+                            <td class="txt-red">Hello World!</td>
+                        </tr>
+                        <tr>
+                            <td>.txt-dark-red</td>
+                            <td>#a20025</td>
+                            <td class="txt-dark-red">Hello World!</td>
+                        </tr>
+                        <tr>
+                            <td>.txt-sand</td>
+                            <td>#fdf5e6</td>
+                            <td class="bg-black txt-sand">Hello World!</td>
+                        </tr>
+                        <tr>
+                            <td>.txt-teal</td>
+                            <td>#009688</td>
+                            <td class="txt-teal">Hello World!</td>
+                        </tr>
+                        <tr>
+                            <td>.txt-violet</td>
+                            <td>#aa00ff</td>
+                            <td class="txt-violet">Hello World!</td>
+                        </tr>
+                        <tr>
+                            <td>.txt-white</td>
+                            <td>#ffffff</td>
+                            <td class="bg-black txt-white">Hello World!</td>
+                        </tr>
+                        <tr>
+                            <td>.txt-yellow</td>
+                            <td>#ffc40d</td>
+                            <td class="txt-yellow">Hello World!</td>
+                        </tr>
+                        <tr>
+                            <td>.txt-dark</td>
+                            <td>#1d1d1d</td>
+                            <td class="txt-dark">Hello World!</td>
+                        </tr>
+                        <tr>
+                            <td>.txt-light</td>
+                            <td>#efeff4</td>
+                            <td class="bg-black txt-light">Hello World!</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="dorothy.js"></script>
+</body>
+</html>
