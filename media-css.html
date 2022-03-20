@@ -1,0 +1,118 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dorothy CSS</title>
+    <link rel="stylesheet" href="dorothy.css">
+</head>
+<body>
+    <nav class="navbar bg-teal">
+        <a href="index.html" class="nav-logo">Dorothy CSS</a>
+        <ul class="nav-menu">
+            <li class="nav-item">
+                <a href="documentation.html" class="nav-link">Documentation</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Nav item 2</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Nav item 3</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Nav item 4</a>
+            </li>
+        </ul>
+        <div class="nav-hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+    <div class="row">
+        <div class="col-m-2"></div>
+        <div class="col-m-10">
+            <div class="container">
+                <div class="btn-group">
+                    <a href="helpers.html" class="btn btn-outline-red">&larr; Helpers</a>
+                    <a href="shadows.html" class="btn btn-outline-green">Shadows &rarr;</a>
+                </div>
+                <br>
+                <h1>Media CSS</h1>
+                <hr>
+                <h2>Images</h2>
+                <p class="txt-justify">Images can be styled in different ways using Dorothy.CSS</p>
+                <br>
+                <h3>Responsive Images</h3>
+                <p class="txt-justify">To make images resize responsively to page with, you can add the class <b>.img-responsive</b> to your image tag. It will now have a max-width: 100% and height: auto.</p>
+                <img src="img_snow_wide.jpg" alt="Snow" class="img-responsive">
+                <br><br>
+                <h3>Circular Images</h3>
+                <p class="txt-justify">To make images appear circular, simply add class <b>.img-circle</b> to them</p>
+                <img src="yuna.jpg" alt="Yuna" class="img-circle">
+                <br><br>
+                <h3>Image Thumbnails</h3>
+                <p class="txt-justify">To give an image a rounded 1px border appearance, you can use class <b>.img-thumbnail</b></p>
+                <img src="img_avatar1.png" alt="" class="img-thumbnail">
+                <br><br>
+                <h3>Fixed square images</h3>
+                <p class="txt-justify">There are 7 dimensions to choose from, useful for avatars:</p>
+                <div class="responsive">
+                    <table>
+                        <tr>
+                            <td>.img-16x16</td>
+                            <td><img src="yuna.jpg" alt="" class="img-16x16"></td>
+                            <td>16x16px</td>
+                        </tr>
+                        <tr>
+                            <td>.img-24x24</td>
+                            <td><img src="yuna.jpg" alt="" class="img-24x24"></td>
+                            <td>24x24px</td>
+                        </tr>
+                        <tr>
+                            <td>.img-32x32</td>
+                            <td><img src="yuna.jpg" alt="" class="img-32x32"></td>
+                            <td>32x32px</td>
+                        </tr>
+                        <tr>
+                            <td>.img-48x48</td>
+                            <td><img src="yuna.jpg" alt="" class="img-48x48"></td>
+                            <td>48x48px</td>
+                        </tr>
+                        <tr>
+                            <td>.img-64x64</td>
+                            <td><img src="yuna.jpg" alt="" class="img-64x64"></td>
+                            <td>64x64px</td>
+                        </tr>
+                        <tr>
+                            <td>.img-96x96</td>
+                            <td><img src="yuna.jpg" alt="" class="img-96x96"></td>
+                            <td>96x96px</td>
+                        </tr>
+                        <tr>
+                            <td>.img-128x128</td>
+                            <td><img src="yuna.jpg" alt="" class="img-128x128"></td>
+                            <td>128x128px</td>
+                        </tr>
+                    </table>
+                </div>
+                <br>
+                <h2>Videos</h1>
+                <p class="txt-justify">We provide a container for Embedded Videos that resizes them responsively.</p>
+                <h3>Responsive Embeds</h3>
+                <p class="txt-justify">To make your embeds responsive, merely wrap them with a containing div which has the class <b>video-container</b></p>
+                <div class="video-container">
+                    <iframe width="853" height="480" src="//www.youtube.com/embed/Q8TXgCzxEnw?rel=0" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <br>
+                <h3>Responsive Videos</h3>
+                <p class="txt-justify">To make your HTML5 Videos responsive just add the class <b>video-responsive</b> to the video tag.</p>
+                <video class="responsive-video" controls>
+                    <source src="movie.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+    <script src="dorothy.js"></script>
+</body>
+</html>
