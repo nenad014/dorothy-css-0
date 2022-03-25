@@ -1192,14 +1192,16 @@ blockquote {
 table {
     border-spacing: 0;
     display: table;
-    overflow-x: auto;
     text-align: left;
+    overflow-x: hidden;
     width: 100%;
     border-collapse: collapse;
 }
 td, th {
+    display: table-cell;
     border-bottom: 1px solid #ccc;
-    padding: 0.75rem 1rem;
+    padding: 0.25rem;
+    vertical-align: top;
 }
 th {
     font-weight: bold;
@@ -1221,7 +1223,7 @@ table.bordered {
     border: 1px solid #ccc;
 }
 table.hoverable tbody tr:hover {
-    background-color: #f1f1f1;
+    background-color: #ccc;
 }
 table.centered tr th, table.centered tr td {
     text-align: center;
@@ -2104,7 +2106,7 @@ video.video-responsive {
 
 /* Button Group */
 .btn-group {
-    display: flex;
+    display: flex!important;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -2115,7 +2117,7 @@ video.video-responsive {
     margin-right: 0;
 }
 .btn-group.vertical {
-    display: inline-flex;
+    display: inline-flex!important;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
