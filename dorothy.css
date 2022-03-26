@@ -1229,6 +1229,145 @@ table.centered tr th, table.centered tr td {
     text-align: center;
 }
 
+/* Animations */
+.animate-fading {
+    animation: fading 10s infinite;
+}
+@keyframes fading {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+.animate-opacity {
+    animation: opac 0.8s;
+}
+@keyframes opac {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.animate-top {
+    position: relative;
+    animation: animatetop 0.4s;
+}
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0;
+    }
+    to {
+        top: 0;
+        opacity: 1;
+    }
+}
+.animate-left {
+    position: relative;
+    animation: animateleft 0.4s;
+}
+@keyframes animateleft {
+    from {
+        left: -300px;
+        opacity: 0;
+    }
+    to {
+        left: 0;
+        opacity: 1;
+    }
+}
+.animate-right {
+    position: relative;
+    animation: animateright 0.4s;
+}
+@keyframes animateright {
+    from {
+        right: -300px;
+        opacity: 0;
+    }
+    to {
+        right: 0;
+        opacity: 1;
+    }
+}
+.animate-bottom {
+    position: relative;
+    animation: animatebottom 0.4s;
+}
+@keyframes animatebottom {
+    from {
+        bottom: -300px;
+        opacity: 0;
+    }
+    to {
+        bottom: 0;
+        opacity: 1;
+    }
+}
+.animate-zoom {
+    animation: animatezoom 0.6s;
+}
+@keyframes animatezoom {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+.spin {
+    animation: spin 2s infinite linear;
+}
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(359deg);
+    }
+}
+.opacity,
+.opacity-hover:hover {
+    opacity: 0.6;
+}
+.opacity-off,
+.opacity-off-hover:hover {
+    opacity: 1;
+}
+.opacity-max {
+    opacity: 0.25;
+}
+.opacity-min {
+    opacity: 0.75;
+}
+.grayscale-max,
+.grayscale-hover:hover {
+    filter: grayscale(100%);
+}
+.grayscale {
+    filter: grayscale(75%);
+}
+.grayscale-min {
+    filter: grayscale(50%);
+}
+.sepia {
+    filter: sepia(75%);
+}
+.sepia-max,
+.sepia-hover:hover {
+    filter: sepia(100%);
+}
+.sepia-min {
+    filter: sepia(50%);
+}
+
 /* UTILITIES */
 /* Borders */
 .border {

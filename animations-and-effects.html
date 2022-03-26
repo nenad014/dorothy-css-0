@@ -1,0 +1,307 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dorothy CSS</title>
+    <link rel="stylesheet" href="dorothy.css">
+</head>
+<body>
+    <nav class="navbar bg-teal">
+        <a href="index.html" class="nav-logo">Dorothy CSS</a>
+        <ul class="nav-menu">
+            <li class="nav-item">
+                <a href="documentation.html" class="nav-link">Documentation</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Nav item 2</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Nav item 3</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Nav item 4</a>
+            </li>
+        </ul>
+        <div class="nav-hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+    <div class="row">
+        <div class="col-m-2"></div>
+        <div class="col-m-10">
+            <div class="container">
+                <div class="btn-group">
+                    <a href="tables.html" class="btn btn-outline-red">&larr; Tables</a>
+                    <a href="typography.html" class="btn btn-outline-green">Typography &rarr;</a>
+                </div>
+                <br>
+                <h1>Animations & Effects</h1>
+                <hr>
+                <h2>Animations</h2>
+                <br>
+                <p class="txt-justify">Dorothy.CSS provides the following classes for animations:</p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Class</th>
+                            <th>Defines</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>.animate-top</td>
+                            <td>Slides in an element from the top (-300px to 0)</td>
+                        </tr>
+                        <tr>
+                            <td>.animate-bottom</td>
+                            <td>Slides in an element from the bottom (-300px to 0)</td>
+                        </tr>
+                        <tr>
+                            <td>.animate-left</td>
+                            <td>Slides in an element from the left (-300px to 0)</td>
+                        </tr>
+                        <tr>
+                            <td>.animate-right</td>
+                            <td>Slides in an element from the right (-300px to 0)</td>
+                        </tr>
+                        <tr>
+                            <td>.animate-opacity</td>
+                            <td>Animates an element's opacity from 0 to 1 in 0.8 seconds</td>
+                        </tr>
+                        <tr>
+                            <td>.animate-zoom</td>
+                            <td>Animates an element from 0 to 100% in size</td>
+                        </tr>
+                        <tr>
+                            <td>.animate-fading</td>
+                            <td>Animates an element's opacity from 0 to 1 and 1 to 0 (fades in + fade out)</td>
+                        </tr>
+                        <tr>
+                            <td>.spin</td>
+                            <td>Spins an element 360 degrees</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br>
+                <h2>Effects</h2>
+                <br>
+                <p class="txt-justify">Dorothy.CSS provides the following effects classes:</p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Class</th>
+                            <th>Defines</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>.opacity</td>
+                            <td>Adds opacity/transparency to an element (opacity: 0.6)</td>
+                        </tr>
+                        <tr>
+                            <td>.opacity-min</td>
+                            <td>Adds opacity/transparency to an element (opacity: 0.75)</td>
+                        </tr>
+                        <tr>
+                            <td>.opacity-nax</td>
+                            <td>Adds opacity/transparency to an element (opacity: 0.25)</td>
+                        </tr>
+                        <tr>
+                            <td>.grayscale</td>
+                            <td>Adds grayscale effect to an element (grayscale: 75%)</td>
+                        </tr>
+                        <tr>
+                            <td>.grayscale-min</td>
+                            <td>Adds grayscale effect to an element (grayscale: 50%)</td>
+                        </tr>
+                        <tr>
+                            <td>.grayscale-max</td>
+                            <td>Adds grayscale effect to an element (grayscale: 100%)</td>
+                        </tr>
+                        <tr>
+                            <td>.sepia</td>
+                            <td>Adds sepia effect to an element (sepia: 75%)</td>
+                        </tr>
+                        <tr>
+                            <td>.sepia-min</td>
+                            <td>Adds sepia effect to an element (sepia: 50%)</td>
+                        </tr>
+                        <tr>
+                            <td>.sepia-max</td>
+                            <td>Adds sepia effect to an element (sepia: 100%)</td>
+                        </tr>
+                        <tr>
+                            <td>.opacity-hover</td>
+                            <td>Adds transparency to an element on hover (opacity: 0.6)</td>
+                        </tr>
+                        <tr>
+                            <td>.grayscale-hover</td>
+                            <td>Adds grayscale effect to an element on hover (grayscale: 100%)</td>
+                        </tr>
+                        <tr>
+                            <td>.sepia-hover</td>
+                            <td>Adds a sepia effect to an element (sepia: 100%)</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br>
+                <h3>Opacity</h3>
+                <p class="txt-justify">The <b>.opacity</b> classes add transparency to an element:</p>
+                <br>
+                <div class="row">
+                    <div class="col-s-6 col-m-3">
+                        <div class="card">
+                            <img src="img_workshop.jpg" alt="" class="img-responsive">
+                            <div class="card-content bg-red">
+                                <p>Normal</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-s-6 col-m-3">
+                        <div class="card opacity-min">
+                            <img src="img_workshop.jpg" alt="" class="img-responsive">
+                            <div class="card-content bg-red">
+                                <p>opacity-min</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-s-6 col-m-3">
+                        <div class="card opacity">
+                            <img src="img_workshop.jpg" alt="" class="img-responsive">
+                            <div class="card-content bg-red">
+                                <p>opacity</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-s-6 col-m-3">
+                        <div class="card opacity-max">
+                            <img src="img_workshop.jpg" alt="" class="img-responsive">
+                            <div class="card-content bg-red">
+                                <p>opacity-max</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <h3>Grayscale</h3>
+                <p class="txt-justify">The <b>.grayscale</b> classes add grayslace to an element:</p>
+                <br>
+                <div class="row">
+                    <div class="col-s-6 col-m-3">
+                        <div class="card">
+                            <img src="img_workshop.jpg" alt="" class="img-responsive">
+                            <div class="card-content bg-red">
+                                <p>Normal</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-s-6 col-m-3">
+                        <div class="card grayscale-min">
+                            <img src="img_workshop.jpg" alt="" class="img-responsive">
+                            <div class="card-content bg-red">
+                                <p>grayscale-min</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-s-6 col-m-3">
+                        <div class="card grayscale">
+                            <img src="img_workshop.jpg" alt="" class="img-responsive">
+                            <div class="card-content bg-red">
+                                <p>grayscale</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-s-6 col-m-3">
+                        <div class="card grayscale-max">
+                            <img src="img_workshop.jpg" alt="" class="img-responsive">
+                            <div class="card-content bg-red">
+                                <p>grayscale-max</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <h3>Sepia</h3>
+                <p class="txt-justify">The <b>.sepia</b> classes add sepia to an element:</p>
+                <br>
+                <div class="row">
+                    <div class="col-s-6 col-m-3">
+                        <div class="card">
+                            <img src="img_workshop.jpg" alt="" class="img-responsive">
+                            <div class="card-content bg-red">
+                                <p>Normal</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-s-6 col-m-3">
+                        <div class="card sepia-min">
+                            <img src="img_workshop.jpg" alt="" class="img-responsive">
+                            <div class="card-content bg-red">
+                                <p>sepia-min</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-s-6 col-m-3">
+                        <div class="card sepia">
+                            <img src="img_workshop.jpg" alt="" class="img-responsive">
+                            <div class="card-content bg-red">
+                                <p>sepia</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-s-6 col-m-3">
+                        <div class="card sepia-max">
+                            <img src="img_workshop.jpg" alt="" class="img-responsive">
+                            <div class="card-content bg-red">
+                                <p>sepia-max</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <h3>Hover Effects</h3>
+                <p class="txt-justify">You can also add special effects on hover/mouse-over.</p>
+                <br>
+                <div class="row">
+                    <div class="col-s-6 col-m-3">
+                        <div class="card">
+                            <img src="img_workshop.jpg" alt="" class="img-responsive">
+                            <div class="card-content bg-red">
+                                <p>Normal</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-s-6 col-m-3">
+                        <div class="card opacity-hover">
+                            <img src="img_workshop.jpg" alt="" class="img-responsive">
+                            <div class="card-content bg-red">
+                                <p>opacity-hover</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-s-6 col-m-3">
+                        <div class="card grayscale-hover">
+                            <img src="img_workshop.jpg" alt="" class="img-responsive">
+                            <div class="card-content bg-red">
+                                <p>grayscale-hover</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-s-6 col-m-3">
+                        <div class="card sepia-hover">
+                            <img src="img_workshop.jpg" alt="" class="img-responsive">
+                            <div class="card-content bg-red">
+                                <p>sepia-hover</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="dorothy.js"></script>
+</body>
+</html>
