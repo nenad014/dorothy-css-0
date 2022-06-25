@@ -1782,6 +1782,10 @@ video.video-responsive {
     background-color: #009688 !important;
     color: #fff !important;
 }
+.btn-violet {
+    background-color: #aa00ff;
+    color: #fff!important;
+}
 .btn-white {
     background-color: #fff !important;
     color: #000 !important;
@@ -2114,6 +2118,16 @@ video.video-responsive {
 }
 .btn-outline-teal:hover {
     background-color: #009688 !important;
+    color: #fff !important;
+    opacity: 1;
+}
+.btn-outline-violet {
+    background-color: transparent;
+    border-color: #aa00ff !important;
+    color: #aa00ff !important;
+}
+.btn-outline-violet:hover {
+    background-color: #aa00ff !important;
     color: #fff !important;
     opacity: 1;
 }
