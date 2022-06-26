@@ -42,7 +42,7 @@
                 <hr>
                 <h2>Usage</h2>
                 <p class="txt-justify">Dorothy.CSS contains a palette of 35 colors. You can use this palette for background color and text color.</p>
-                <h3>Background Colors</h3>
+                <h3 id="background-colors">Background Colors</h3>
                 <p><b>.bg-<i>color</i></b> classes set the background color of any HTML element.</p>
                 <p>You can use any of the <b>35 colors</b>:</p>
                 <table>
@@ -232,7 +232,7 @@
                     </tbody>
                 </table>
                 <br>
-                <h3>Text Colors</h3>
+                <h3 id="text-colors">Text Colors</h3>
                 <p><b>.txt-<i>color</i></b> classes set the text color of any HTML element.</p>
                 <p>You can use any of the <b>35 colors</b>:</p>
                 <table>
@@ -423,7 +423,16 @@
                 </table>
             </div>
         </div>
-        <div class="col-m-2"></div>
+        <div class="col-m-2 border-left border-1">
+            <ul class="vertical-navbar sticky">
+                <li class="nav-item">
+                    <a href="#background-colors" class="nav-link">Background colors</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#text-colors" class="nav-link">Text colors</a>
+                </li>
+            </ul>
+        </div>
     </div>
     <script src="dorothy.js"></script>
 </body>

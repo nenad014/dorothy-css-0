@@ -2729,6 +2729,21 @@ video.video-responsive {
     }
 }
 
+.vertical-navbar {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.vertical-navbar .nav-item {
+    padding: 0.5rem 0;
+}
+.vertical-navbar.sticky {
+    position: sticky;
+    top: 0;
+}
+
 /* FORMS */
 input[type=text], input[type=email], input[type=password] {
     width: 100%;

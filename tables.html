@@ -31,7 +31,7 @@
     </nav>
     <div class="row">
         <div class="col-m-2"></div>
-        <div class="col-m-10">
+        <div class="col-m-8">
             <div class="container">
                 <div class="btn-group">
                     <a href="shadows.html" class="btn btn-outline-red">&larr; Shadows</a>
@@ -40,7 +40,7 @@
                 <br>
                 <h1>Tables</h1>
                 <hr>
-                <h2>Basic</h2>
+                <h2 id="basic">Basic</h2>
                 <br>
                 <table>
                     <thead>
@@ -69,7 +69,7 @@
                     </tbody>
                 </table>
                 <br>
-                <h2>Striped Rows</h2>
+                <h2 id="striped">Striped Rows</h2>
                 <p>The .zebra class adds zebra-stripes to a table:</p>
                 <table class="zebra">
                     <thead>
@@ -98,7 +98,7 @@
                     </tbody>
                 </table>
                 <br>
-                <h2>Bordered Rows</h2>
+                <h2 id="bordered">Bordered Rows</h2>
                 <p>The .bordered class adds borders to a table:</p>
                 <table class="bordered">
                     <thead>
@@ -127,7 +127,7 @@
                     </tbody>
                 </table>
                 <br>
-                <h2>Hoverable Rows</h2>
+                <h2 id="hoverable">Hoverable Rows</h2>
                 <p>The .hoverable class adds a hover effect (grey background color) on table rows:</p>
                 <table class="hoverable">
                     <thead>
@@ -156,7 +156,7 @@
                     </tbody>
                 </table>
                 <br>
-                <h2>Centering table</h2>
+                <h2 id="centered">Centering table</h2>
                 <p>The .centered class class centers the content of the table:</p>
                 <table class="centered">
                     <thead>
@@ -186,6 +186,25 @@
                 </table>
                 <br>
             </div>
+        </div>
+        <div class="col-m-2 border-left border-1">
+            <ul class="vertical-navbar sticky">
+                <li class="nav-item">
+                    <a href="#basic" class="nav-link">Basic</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#striped" class="nav-link">Striped Rows</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#bordered" class="nav-link">Bordered Rows</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#hoverable" class="nav-link">Hoverable Rows</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#centered" class="nav-link">Centering table</a>
+                </li>
+            </ul>
         </div>
     </div>
     <script src="dorothy.js"></script>
