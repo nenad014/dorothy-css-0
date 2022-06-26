@@ -1632,7 +1632,7 @@ video.video-responsive {
 
 /* COMPONENTS */
 /* Buttons */
-.btn {
+.btn, .btn-m {
     position: relative;
     display: inline-flex;
     align-items: center;
@@ -2181,7 +2181,7 @@ video.video-responsive {
     color: #fff;
 }
 .btn-github {
-    background-color: #4183c4;
+    background-color: #171515;
     color: #fff;
 }
 .btn-google-plus {
@@ -2215,6 +2215,7 @@ video.video-responsive {
 .btn-snapchat {
     background: #fffc00;
     color: #fff;
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
 }
 .btn-soundcloud {
     background: #ff5500;
@@ -2253,13 +2254,143 @@ video.video-responsive {
     color: #fff;
 }
 
+.btn-primary {
+    background-color: #6435c9 !important;
+    color: #fff;
+}
+.btn-success {
+    background-color: #48c774 !important;
+    color: #fff;
+}
+.btn-info {
+    background-color: #209cee !important;
+    color: #fff;
+}
+.btn-warning {
+    background-color: #ffc107 !important;
+    color: #fff;
+}
+.btn-danger {
+    background-color: #dc3545 !important;
+    color: #fff;
+}
+.btn-secondary {
+    background-color: #6c757d !important;
+    color: #fff;
+}
+.btn-link {
+    background-color: #3273dc !important;
+    color: #fff;
+}
 .btn-positive {
-    background-color: #21ba45;
+    background-color: #21ba45 !important;
     color: #fff;
 }
 .btn-negative {
-    background-color: #db2828;
+    background-color: #db2828 !important;
     color: #fff;
+}
+
+.btn-outline-primary {
+    background-color: transparent;
+    border-color: #6435c9 !important;
+    color: #6435c9 !important;
+}
+.btn-outline-primary:hover {
+    background-color: #6435c9 !important;
+    color: #fff !important;
+    opacity: 1;
+}
+.btn-outline-success {
+    background-color: transparent;
+    border-color: #48c774 !important;
+    color: #48c774 !important;
+}
+.btn-outline-success:hover {
+    background-color: #48c774 !important;
+    color: #fff !important;
+    opacity: 1;
+}
+.btn-outline-info {
+    background-color: transparent;
+    border-color: #209cee !important;
+    color: #209cee !important;
+}
+.btn-outline-info:hover {
+    background-color: #209cee !important;
+    color: #fff !important;
+    opacity: 1;
+}
+.btn-outline-warning {
+    background-color: transparent;
+    border-color: #ffc107 !important;
+    color: #ffc107 !important;
+}
+.btn-outline-warning:hover {
+    background-color: #ffc107 !important;
+    color: #fff !important;
+    opacity: 1;
+}
+.btn-outline-danger {
+    background-color: transparent;
+    border-color: #dc3545 !important;
+    color: #dc3545 !important;
+}
+.btn-outline-danger:hover {
+    background-color: #dc3545 !important;
+    color: #fff !important;
+    opacity: 1;
+}
+.btn-outline-secondary {
+    background-color: transparent;
+    border-color: #6c757d !important;
+    color: #6c757d !important;
+}
+.btn-outline-secondary:hover {
+    background-color: #6c757d !important;
+    color: #fff !important;
+    opacity: 1;
+}
+.btn-outline-link {
+    background-color: transparent;
+    border-color: #3273dc !important;
+    color: #3273dc !important;
+}
+.btn-outline-link:hover {
+    background-color: #3273dc !important;
+    color: #fff !important;
+    opacity: 1;
+}
+.btn-outline-positive {
+    background-color: transparent;
+    border-color: #21ba45 !important;
+    color: #21ba45 !important;
+}
+.btn-outline-positive:hover {
+    background-color: #21ba45 !important;
+    color: #fff !important;
+    opacity: 1;
+}
+.btn-outline-negative {
+    background-color: transparent;
+    border-color: #db2828 !important;
+    color: #db2828 !important;
+}
+.btn-outline-negative:hover {
+    background-color: #db2828 !important;
+    color: #fff !important;
+    opacity: 1;
+}
+
+.btn-s {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.75rem;
+    border-radius: 0.2rem;
+}
+.btn-l {
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    border-radius: 0.3rem;
 }
 
 .btn-circle {
@@ -2269,6 +2400,9 @@ video.video-responsive {
 }
 .btn-pill {
     border-radius: 50rem;
+}
+.btn-square {
+    border-radius: 0;
 }
 .btn-fullwidth {
     width: 100%;
