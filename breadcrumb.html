@@ -1,0 +1,76 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dorothy CSS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="dorothy.css">
+</head>
+<body>
+    <nav class="navbar bg-teal">
+        <a href="index.html" class="nav-logo">Dorothy CSS</a>
+        <ul class="nav-menu">
+            <li class="nav-item">
+                <a href="documentation.html" class="nav-link">Documentation</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Nav item 2</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Nav item 3</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Nav item 4</a>
+            </li>
+        </ul>
+        <div class="nav-hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+    <div class="row">
+        <div class="col-m-2"></div>
+        <div class="col-m-8">
+            <div class="container">
+                <div class="btn-group">
+                    <a href="buttons.html" class="btn btn-outline-red">&larr; Buttons</a>
+                    <a href="breadcrumb.html" class="btn btn-outline-green">Card &rarr;</a>
+                </div>
+                <br>
+                <h1>Breadcrumb</h1>
+                <p class="subtitle-2">A simple <b>breadcrumb</b> component to improve your navigation experience</p>
+                <hr>
+                <p>Breadcrumbs are a good way to display your current location. This is usually used when you have multiple layers of content.</p>
+                <br>
+                <h2>Basic</h2>
+                <ul class="breadcrumb">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Pictures</a></li>
+                    <li><a href="#">Summer 22</a></li>
+                    <li>Malta</li>
+                </ul>
+                <br>
+                <h2>Variations</h2>
+                <p>Breadcrumb navigation items can be placed in center adding class <b>.center</b> to class <b>.breadcrumb</b></p>
+                <ul class="breadcrumb center">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Pictures</a></li>
+                    <li><a href="#">Summer 22</a></li>
+                    <li>Malta</li>
+                </ul>
+                <p>or right aligned with adding <b>.right</b> class to <b>.breadcrumb</b></p>
+                <ul class="breadcrumb right">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Pictures</a></li>
+                    <li><a href="#">Summer 22</a></li>
+                    <li>Malta</li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-m-2"></div>
+    </div>
+    <script src="dorothy.js"></script>
+</body>
+</html>
