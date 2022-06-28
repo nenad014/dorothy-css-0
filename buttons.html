@@ -55,8 +55,8 @@
                 <input class="btn" type="submit" value="Submit input">
                 <input class="btn" type="reset" value="Reset input">
                 <br>
-                <h2>Colors</h2>
-                <h3>Standard</h3>
+                <h2 id="colors">Colors</h2>
+                <h3 id="standard">Standard</h3>
                 <p>The button is available in all the <b>defined colors</b></p>
                 <button class="btn btn-amber">amber</button>
                 <button class="btn btn-aqua">aqua</button>
@@ -94,7 +94,7 @@
                 <button class="btn btn-dark">dark</button>
                 <button class="btn btn-light">light</button>
                 <br><br>
-                <h3>Outline</h3>
+                <h3 id="outline">Outline</h3>
                 <p>Dorothy.css also provides outline/bordered buttons</p>
                 <div class="bg-dark">
                     <button class="btn btn-outline">button</button>
@@ -135,7 +135,7 @@
                     <button class="btn btn-outline-light">button</button>
                 </div>
                 <br>
-                <h3>Social networks</h3>
+                <h3 id="social-buttons">Social networks</h3>
                 <p>Dorothy.css also provides buttons with social network colors</p>
                 <p>* <small>For using icons we are recommending to import latest version of Font Awesome</small></p>
                 <button class="btn btn-android"><i class="fa-brands fa-android"></i> android</button>
@@ -164,7 +164,7 @@
                 <button class="btn btn-yahoo"><i class="fa-brands fa-yahoo"></i> yahoo</button>
                 <button class="btn btn-youtube"><i class="fa-brands fa-youtube"></i> youtube</button>
                 <br>
-                <h3>Contextual colors</h3>
+                <h3 id="contextual">Contextual colors</h3>
                 <p>In the end, but also important, Dorothy.css provides us contextual colors like Bootstrap do. They can be also outlined.</p>
                 <button class="btn btn-primary">primary</button>
                 <button class="btn btn-success">success</button>
@@ -188,7 +188,7 @@
                     <button class="btn btn-outline-negative">negative</button>
                 </div>
                 <br>
-                <h2>Sizes</h2>
+                <h2 id="sizes">Sizes</h2>
                 <p>The button comes in <b>3 different sizes:</b></p>
                 <ul>
                     <li>small</li>
@@ -201,7 +201,7 @@
                 <button class="btn btn-m btn-dark-gray">Medium</button>
                 <button class="btn btn-l btn-dark-gray">Large</button>
                 <br>
-                <h2>Other types of buttons</h2>
+                <h2 id="other-types">Other types of buttons</h2>
                 <p>Dorothy.css provides few more styles of buttons:</p>
                 <ul>
                     <li>circle buttons <b>.btn-circle</b></li>
@@ -214,7 +214,7 @@
                 <button class="btn btn-pill btn-dark-orange">Pill button</button>
                 <button class="btn btn-fullwidth btn-dark-blue">Full width button</button>
                 <br><br>
-                <h2>Button group</h2>
+                <h2 id="button-group">Button group</h2>
                 <p>If you want to <b>group</b> buttons together on a single line, use a div element with class <b>.btn-group</b> to create a button group.</p>
                 <div class="btn-group">
                     <button class="btn btn-primary">Apple</button>
@@ -222,7 +222,7 @@
                     <button class="btn btn-primary">Sony</button>
                 </div>
                 <br>
-                <h3>Vertical button group</h3>
+                <h3 id="vertical">Vertical button group</h3>
                 <p>To create vertical button group just add class <b>.vertical</b> to <b>.btn-group</b> class.</p>
                 <div class="btn-group vertical">
                     <button class="btn btn-primary">Apple</button>
@@ -230,7 +230,7 @@
                     <button class="btn btn-primary">Sony</button>
                 </div>
                 <br>
-                <h3>Inline horizontal/vertical button group</h3>
+                <h3 id="inline">Inline horizontal/vertical button group</h3>
                 <p>If you want to remove space between buttons in group you can simply add class <b>.inline</b> to <b>.btn-group</b> or <b>.btn-group vertical</b></p>
                 <div class="btn-group inline">
                     <button class="btn btn-primary">Apple</button>
@@ -245,7 +245,40 @@
                 </div>
             </div>
         </div>
-        <div class="col-m-2"></div>
+        <div class="col-m-2 border-left border-1">
+            <ul class="vertical-navbar sticky">
+                <li class="nav-item">
+                    <a href="#colors" class="nav-link">Colors</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#standard" class="nav-link">Standard</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#outline" class="nav-link">Outline</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#social-buttons" class="nav-link">Social networks</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contextual" class="nav-link">Contextual colors</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#sizes" class="nav-link">Sizes</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#other-types" class="nav-link">Other types of buttons</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#button-group" class="nav-link">Button group</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#vertical" class="nav-link">Vertical button group</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#inline" class="nav-link">Inline hortizontal/vertical button group</a>
+                </li>
+            </ul>
+        </div>
     </div>
     <script src="dorothy.js"></script>
 </body>
