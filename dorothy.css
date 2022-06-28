@@ -2502,6 +2502,12 @@ video.video-responsive {
     justify-content: flex-end;
 }
 
+@media (max-width: 480px) {
+    .breadcrumb li {
+        font-size: 1rem;
+    }
+}
+
 /* Cards */
 .card {
     display: block;
